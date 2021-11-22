@@ -34,6 +34,14 @@ We provide codes for two CO (combinatorial optimization) problems:
    At the moment, it is set to use the saved model (N=20) we have provided (in "result" folder), but you can easily use the one you have trained from running train.py.
 
 
+### Datatsets
+* Test datasets for larger N (N=50, N=100) problems are given as links below.<br>
+  Download the dataset and add them to the "data" directories under ATSP and FFSP folders. <br>
+  * [MatNet_dataset_ATSP](https://drive.google.com/file/d/1NLrck1NU3rQ9_oraK0eKgT4DcLCvWeU4/view?usp=sharing) (size: 374MB)
+  * [MatNet_dataset_FFSP](https://drive.google.com/file/d/1MBf1fgquDLwUvS-75h36C3Rir7SFGutj/view?usp=sharing) (size: 19.6MB)
+  
+
 ### Used Libraries
 python v3.7.6 <br>
 torch==1.7.0 <br>
+
