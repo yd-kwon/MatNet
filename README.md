@@ -3,7 +3,7 @@
 
 This repository provides a reference implementation of *MatNet* and saved trained models as described in the paper:<br>
 > Matrix Encoding Networks for Neural Combinatorial Optimization <br>
-(under reivew for NeurIPS 2021)<br>
+(NeurIPS 2021, accepted)<br>
 
 
 The code is written using Pytorch.<br>
