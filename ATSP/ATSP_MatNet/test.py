@@ -86,8 +86,8 @@ tester_params = {
     'use_cuda': USE_CUDA,
     'cuda_device_num': CUDA_DEVICE_NUM,
     'model_load': {
-        'path': './result/saved_atsp_model',  # directory path of pre-trained model and log files saved.
-        'epoch': 2000,  # epoch version of pre-trained model to load.
+        'path': './result/saved atsp20_model',  # directory path of pre-trained model and log files saved.
+        'epoch': 5000,  # epoch version of pre-trained model to load.
     },
     'saved_problem_folder': "../data/n20",
     'saved_problem_filename': 'problem_20_0_1000000_{}.atsp',
