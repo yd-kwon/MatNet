@@ -17,21 +17,27 @@ We provide codes for two CO (combinatorial optimization) problems:
 * Flexible Flow Shop Problem (FFSP) 
 
 ### Basic Usage
-* For both ATSP_MatNet and FFSP_MatNet <br>
+For both ATSP_MatNet and FFSP_MatNet, <br>
 
-   i. To train a model, 
+   #### i. To train a model, 
    ```
    python3 train.py
    ```
    train.py contains parameters you can modify. <br>
    At the moment, it is set to train N=20 problems.
+
    
-   ii. To test a model,
+   #### ii. To test a model,
    ```
    python3  test.py
    ```
    You can specify the model as a parameter contained in test.py. <br>
    At the moment, it is set to use the saved model (N=20) we have provided (in "result" folder), but you can easily use the one you have trained from running train.py.
+
+   To test for the N=50 model, make sure that saved problem files exist in the path (see below for Datasets). Also, modify test.py so that 
+   * all "20"'s are changed to "50"
+   * "path" and "epoch" in the "tester_params" are correctly pointing to the saved model
+   * test batch size is decreased (by a factor of something like 4)
 
 
 ### Datatsets
