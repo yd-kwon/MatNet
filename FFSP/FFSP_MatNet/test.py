@@ -89,7 +89,7 @@ tester_params = {
     'use_cuda': USE_CUDA,
     'cuda_device_num': CUDA_DEVICE_NUM,
     'model_load': {
-        'path': './result/saved_ffsp_model',  # directory path of pre-trained model and log files saved.
+        'path': './result/saved_ffsp20_model',  # directory path of pre-trained model and log files saved.
         'epoch': 100,  # epoch version of pre-trained model to load.
     },
     'saved_problem_folder': "../data",
