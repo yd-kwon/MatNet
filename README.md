@@ -39,6 +39,8 @@ For both ATSP_MatNet and FFSP_MatNet, <br>
    * "path" and "epoch" in the "tester_params" are correctly pointing to the saved model
    * test batch size is decreased (by a factor of something like 4)
 
+   Also, note that trained model files for FFSP-MatNet are too large to upload. You must download them manually. (I will provide the links shortly.)
+
 
 ### Datatsets
 * Test datasets for larger N (N=50, N=100) problems are given as links below.<br>
