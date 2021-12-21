@@ -98,7 +98,7 @@ tester_params = {
     'test_batch_size': 1000,
     'augmentation_enable': True,
     'aug_factor': 128,
-    'aug_batch_size': 100,
+    'aug_batch_size': 200,
 }
 if tester_params['augmentation_enable']:
     tester_params['test_batch_size'] = tester_params['aug_batch_size']
